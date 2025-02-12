@@ -66,9 +66,9 @@ let handler = async (m, { conn, args }) => {
   await m.react('✅');
 };
 
-handler.help = ['play *<texto>*'];
+handler.help = ['w *<texto>*'];
 handler.tags = ['dl'];
-handler.command = ['play'];
+handler.command = ['w'];
 
 export default handler;
 
